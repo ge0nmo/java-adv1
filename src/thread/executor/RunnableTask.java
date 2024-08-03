@@ -13,6 +13,12 @@ public class RunnableTask implements Runnable
         this.name = name;
     }
 
+    public RunnableTask(String name, int sleepMs)
+    {
+        this.name = name;
+        this.sleepMs = sleepMs;
+    }
+
     @Override
     public void run()
     {
