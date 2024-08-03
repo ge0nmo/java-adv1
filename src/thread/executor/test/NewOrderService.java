@@ -1,6 +1,5 @@
 package thread.executor.test;
 
-import java.util.List;
 import java.util.concurrent.*;
 
 import static util.MyLogger.log;
